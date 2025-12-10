@@ -1,13 +1,12 @@
 {
   "name": "vid3rb-fb-bot",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/webhook.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
     "axios": "^1.7.7",
+    "express": "^4.19.2",
     "form-data": "^4.0.0"
   }
 }
